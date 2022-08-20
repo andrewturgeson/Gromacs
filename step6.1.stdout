@@ -1,0 +1,61 @@
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting NAMD case on Mon Nov 15 21:30:29 EST 2021
+NAMD case complete on Mon Nov 15 21:30:29 EST 2021
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting NAMD case on Mon Nov 15 21:53:44 EST 2021
+NAMD case complete on Mon Nov 15 21:53:44 EST 2021
+-catch_rsh /cm/local/apps/sge/var/spool/ts08/active_jobs/44450.1/pe_hostfile
+ts08:1
+#$ -pe openmpi_ib 1
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting GROMACS case on Mon Nov 15 22:06:44 EST 2021
+GROMACS case complete on Mon Nov 15 22:06:44 EST 2021
+-catch_rsh /cm/local/apps/sge/var/spool/ts20/active_jobs/44451.1/pe_hostfile
+ts20
+#$ -pe openmpi_ib 1
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting GROMACS case on Mon Nov 15 22:10:44 EST 2021
+GROMACS case complete on Mon Nov 15 22:10:44 EST 2021
+-catch_rsh /cm/local/apps/sge/var/spool/ts24/active_jobs/44452.1/pe_hostfile
+ts24
+#$ -pe openmpi_ib 1
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting GROMACS case on Mon Nov 15 22:20:14 EST 2021
+[1637032815.003961] [ts24:41836:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.25
+[1637032815.008834] [ts24:41836:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1637032815.012092] [ts24:41836:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x36x72, spacing 0.113 0.113 0.118
+This run will generate roughly 1 Mb of data
+GROMACS case complete on Mon Nov 15 22:20:15 EST 2021
+-catch_rsh /cm/local/apps/sge/var/spool/ts26/active_jobs/44453.1/pe_hostfile
+ts26
+#$ -pe openmpi_ib 1
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting GROMACS case on Mon Nov 15 22:25:29 EST 2021
+[1637033129.960803] [ts26:115311:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.25
+[1637033129.965610] [ts26:115311:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1637033129.968864] [ts26:115311:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+GROMACS case complete on Mon Nov 15 22:25:30 EST 2021

@@ -1,0 +1,12 @@
+-catch_rsh /cm/local/apps/sge/var/spool/ts33/active_jobs/44454.1/pe_hostfile
+ts33
+#$ -pe openmpi_ib 1
+###########################################################################
+ GROMACS!!! got 1 slots across 1 machines
+ Custom namd machines file:
+###########################################################################
+Starting GROMACS case on Mon Nov 15 22:28:59 EST 2021
+[1637033340.049957] [ts33:9470 :0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2400.09
+[1637033340.055663] [ts33:9470 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1637033340.059492] [ts33:9470 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+GROMACS case complete on Mon Nov 15 22:29:00 EST 2021
